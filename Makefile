@@ -1,3 +1,4 @@
+# Requires Xcode
 IOS_CC = xcrun -sdk iphoneos clang
 
 all: demo.app fruitstrap
