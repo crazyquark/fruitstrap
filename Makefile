@@ -16,7 +16,7 @@ fruitstrap: fruitstrap.c
 	gcc -o fruitstrap -framework CoreFoundation -framework MobileDevice -F/System/Library/PrivateFrameworks fruitstrap.c
 
 install: all
-	./fruitstrap demo.app
+	./fruitstrap -b demo.app
 
 debug: all
 	./fruitstrap -d demo.app
