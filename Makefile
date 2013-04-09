@@ -19,7 +19,7 @@ install: all
 	./fruitstrap -b demo.app
 
 debug: all
-	./fruitstrap -d demo.app
+	./fruitstrap -d -b demo.app
 
 clean:
 	rm -rf *.app demo fruitstrap
